@@ -15,5 +15,4 @@ Gnuplot
 3. FLA/Contour_*.plt : First, use PCA to do dimension reduction. Second, use this 2D data to make contour.
    In folder FLA have some example output file.
 
-
-<img src="https://github.com/james093131/Algorithm-Evaluation/blob/main/FLA/Sample_Contour_360.gif"  width="150" height="150")
+   ![image](https://github.com/james093131/Algorithm-Evaluation/blob/main/FLA/Sample_Contour_360.gif)
