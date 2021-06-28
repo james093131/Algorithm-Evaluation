@@ -43,19 +43,12 @@ print(len(Data))
 
 
 
-##KernelPCA
-# for i in range((len(Data))):
-#         Testing.append([i,i+1])
 
-# kpca = KernelPCA(n_components=2,fit_inverse_transform=True,kernel='linear',)
-# newX = kpca.fit_transform(Data)
-# invX = kpca.inverse_transform(Testing)
 
 
 pca = PCA(n_components=2)
 newX = pca.fit_transform(Data)
 invX = pca.inverse_transform(newX)  #轉回來
-# print(pca.explained_variance_ratio_)
 # print(newX)
 # print(invX)
 
