@@ -1,4 +1,5 @@
 from scipy.stats import ranksums
+from scipy.stats import wilcoxon
 import numpy as np
 import sys
 
@@ -26,8 +27,7 @@ def readfile(openfile):
 First = readfile(Input[1])
 Second = readfile(Input[2])
 
-print(First)
-print(Second)
+
 # ranksums(First, Second)
 print(ranksums(First,Second))
-print(type(Second[0]))
+print(wilcoxon(First,Second))
