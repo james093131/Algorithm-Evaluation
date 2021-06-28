@@ -17,7 +17,8 @@ def readfile(openfile):
             for i in range(len(s)):
                 if(s[i]!=''):
                     temp.append(float(s[i]))
-    return temp
+
+    return np.array(temp)
 
 
 
@@ -25,8 +26,8 @@ def readfile(openfile):
 First = readfile(Input[1])
 Second = readfile(Input[2])
 
-
 print(First)
 print(Second)
 # ranksums(First, Second)
 print(ranksums(First,Second))
+print(type(Second[0]))
