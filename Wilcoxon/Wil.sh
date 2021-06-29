@@ -1,1 +1,1 @@
-python3 ./Wilcoxon.py LSHADE_3_Run_Classify.txt SHADE_3_Run_Classify.txt
+python3 ./Wilcoxon.py L_2017_3 PPSO_2017_3

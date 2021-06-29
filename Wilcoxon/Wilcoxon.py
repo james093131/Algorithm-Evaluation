@@ -1,5 +1,4 @@
-from scipy.stats import ranksums
-from scipy.stats import wilcoxon
+from scipy.stats import mannwhitneyu
 import numpy as np
 import sys
 
@@ -29,5 +28,4 @@ Second = readfile(Input[2])
 
 
 # ranksums(First, Second)
-print(ranksums(First,Second))
-print(wilcoxon(First,Second))
+print(mannwhitneyu(First,Second))
