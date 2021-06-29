@@ -7,7 +7,7 @@ table = []
 Input = []
 Data = []
 
-PATH ="/home/ailab/Downloads/Euclidean_distance/Wilcoxon/Wil/50D/"
+PATH ="./20D/"
 # Choose the folder of input file
 
 def Readfile(read):
@@ -21,9 +21,10 @@ def Readfile(read):
               temp.append(float(s[i]))
   return temp
 
-for i in range(12):
-    File='LSHADE_'+str(i+1)+'_Run_Classify.txt'#the name of the input files        
-    Data.append(Readfile(PATH+File))
+for i in range(8):
+    for j in range(10):
+      File=str(j+1)+'_'+str(i+1)+'_Run_Classify.txt'#the name of the input files        
+      Data.append(Readfile(PATH+File))
 
 # print(Data)
 with open('output.csv', 'w', newline='') as csvfile:
