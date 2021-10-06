@@ -3,9 +3,9 @@ Some Evaluation method for Metaheuristic Algorithm
 
 
 1. PCA: Using PCA to make Dimension Reduction and then record the 2D output data.
-2. AutoCSV : Using AutoCSV to record CEC run result.
-3. Diversity : Calculate the performance of diversity for each algorithm.
-
+2. AutoCSV: Using AutoCSV to record CEC run result.
+3. Diversity: Calculate the performance of diversity for each algorithm.
+4. Wilcoxon: Using Wilcoxon rank-sum test to test algorithms Statistical significant difference.
 
 
 
