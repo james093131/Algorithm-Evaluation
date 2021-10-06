@@ -1,5 +1,5 @@
 # Algorithm-Evaluation
-Some Evaluation method for Metaheuristic Algorithm
+Some Evaluation methods for Metaheuristic Algorithm
 
 
 1. PCA: Using PCA to make Dimension Reduction and then record the 2D output data.
